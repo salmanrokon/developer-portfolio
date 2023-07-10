@@ -14,7 +14,7 @@ flex-shrink: 0;
 border-radius: 5px;
 background: #FD6E0A;
 border: 0;
-font-size: 25px;
+font-size: 20px;
 color: aliceblue;
 font-weight: 600;
 }
@@ -29,6 +29,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     color: #181818;
@@ -55,4 +56,12 @@ nav > ul >li >a{
 .me{
 
     font-size:25px;
+}
+.head{
+    background: #FFF8F3;;
+}
+
+/*Banner styles */
+.banner{
+    padding: 30px 30px 30px 150px;
 }
