@@ -1,0 +1,67 @@
+/*Common Shared Styles*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+    margin-right: -8px;
+    margin-left: -10px;
+}
+.btn-primary{
+width: 150px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FD6E0A;
+border: 0;
+font-size: 20px;
+color: aliceblue;
+font-weight: 600;
+}
+
+.btn-primary:hover{
+    background-color: rgba(203, 108, 247, 0.836);
+    font-size: 30px;
+}
+
+/*nav related styles*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 149px;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+nav > ul{
+    display: flex; 
+    align-items: center;
+}
+nav li{
+    margin-right: 50px;
+    list-style-type: none;
+    
+}
+nav > ul >li >a{
+    text-decoration: none;
+    color: #181818;
+    
+}
+.me{
+
+    font-size:25px;
+}
+.head{
+    background: #FFF8F3;;
+}
+
+/*Banner styles */
+.banner{
+    padding: 30px 30px 30px 150px;
+}
